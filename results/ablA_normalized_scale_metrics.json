@@ -1,0 +1,13 @@
+{
+  "MAE_nm": 3.3119,
+  "RMSE_nm": 4.2137,
+  "R2": 0.4212,
+  "train_time_sec": 192.8,
+  "config": {
+    "normalize": true,
+    "use_scale_channel": true,
+    "backbone_mode": "finetune",
+    "epochs": 8,
+    "pretrained_backbone": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "ablA_raw": {
+    "MAE_nm": 3.4528,
+    "RMSE_nm": 4.2345,
+    "R2": 0.4155,
+    "train_time_sec": 289.0,
+    "config": {
+      "normalize": false,
+      "use_scale_channel": false,
+      "backbone_mode": "finetune",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  },
+  "ablA_normalized": {
+    "MAE_nm": 3.3621,
+    "RMSE_nm": 4.2368,
+    "R2": 0.4148,
+    "train_time_sec": 178.9,
+    "config": {
+      "normalize": true,
+      "use_scale_channel": false,
+      "backbone_mode": "finetune",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  },
+  "ablA_normalized_scale": {
+    "MAE_nm": 3.3119,
+    "RMSE_nm": 4.2137,
+    "R2": 0.4212,
+    "train_time_sec": 192.8,
+    "config": {
+      "normalize": true,
+      "use_scale_channel": true,
+      "backbone_mode": "finetune",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  },
+  "ablB_frozen": {
+    "MAE_nm": 4.2029,
+    "RMSE_nm": 4.9215,
+    "R2": 0.2105,
+    "train_time_sec": 81.6,
+    "config": {
+      "normalize": true,
+      "use_scale_channel": true,
+      "backbone_mode": "frozen",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  },
+  "ablB_partial": {
+    "MAE_nm": 3.5544,
+    "RMSE_nm": 4.2711,
+    "R2": 0.4053,
+    "train_time_sec": 106.0,
+    "config": {
+      "normalize": true,
+      "use_scale_channel": true,
+      "backbone_mode": "partial",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  },
+  "ablB_finetune": {
+    "MAE_nm": 3.3349,
+    "RMSE_nm": 4.161,
+    "R2": 0.4356,
+    "train_time_sec": 191.3,
+    "config": {
+      "normalize": true,
+      "use_scale_channel": true,
+      "backbone_mode": "finetune",
+      "epochs": 8,
+      "pretrained_backbone": false
+    }
+  }
+}

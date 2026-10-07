@@ -1,0 +1,46 @@
+{
+  "random_forest": {
+    "MAE_nm": 3.1061,
+    "RMSE_nm": 4.0607,
+    "R2": 0.4625
+  },
+  "random_forest_top_features": [
+    [
+      "equiv_diameter_px",
+      0.2576
+    ],
+    [
+      "contour_area_px",
+      0.2296
+    ],
+    [
+      "intensity_skew",
+      0.0776
+    ],
+    [
+      "equiv_diameter_px_x_scale",
+      0.0765
+    ],
+    [
+      "pixel_scale_nm_per_px",
+      0.0427
+    ],
+    [
+      "extent",
+      0.0306
+    ],
+    [
+      "intensity_outside_mean",
+      0.0301
+    ],
+    [
+      "aspect_ratio",
+      0.0296
+    ]
+  ],
+  "xgboost": {
+    "MAE_nm": 3.2208,
+    "RMSE_nm": 4.2208,
+    "R2": 0.4193
+  }
+}
